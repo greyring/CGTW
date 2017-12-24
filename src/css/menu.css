@@ -54,7 +54,18 @@ transition: all .3s ease-out;
 }
 
 .sidebar-nav .metismenu ul a {
+float: left;
 padding: 10px 15px 10px 30px;
+width: 8em;
+word-wrap: break-word;
+}
+
+.sidebar-nav .metismenu ul span{
+display: block;
+float: left;
+padding: 0.9em 0px 0px 0.5em;
+color: #adb5bd;
+cursor: pointer;
 }
 
 .sidebar-nav .metismenu ul ul a {
